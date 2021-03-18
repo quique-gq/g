@@ -1,2 +1,2 @@
-# games
-Hub for all games on Quique.gq
+# g
+Hub for all ga̶̷̶m̶̷̶e̶̷̶s̶̷̶ on Quique.gq
