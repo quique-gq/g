@@ -1,0 +1,16 @@
+[
+    {
+      "name": "rpg-test",
+      "instructions": "do the thing",
+      "file": "./"
+    },
+    {
+      "name": "pubie",
+      "thumbnail": "https://pubie.quique.gq/assets/thumbnails/pubie.js.png",
+      "instructions": "help pubie obtain MOLECULE. lugie bad",
+      "containerName": "pubieContainer",
+      "containerStyle": "margin: 10px auto 10px auto; display: inline-block",
+      "file": "./assets/games/pubie.js/pubie.js",
+      "init": "PUBIE.init();"
+    }
+  ]

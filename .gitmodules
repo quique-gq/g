@@ -1,0 +1,3 @@
+[submodule "assets/games/pubie.js"]
+	path = assets/games/pubie.js
+	url = https://github.com/quique-gq/pubie.js

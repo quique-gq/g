@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: url('https://quique.gq/assets/bgscroll_2x.png');
+  margin: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  text-align: center;
+  image-rendering: pixelated;
+}
+
+main {
+  min-height: calc(100vh - 44px);
+}
+
+header {
+  background: #FFFFFF;
+  margin: 8px;
+  text-align: left;
+}
+
+nav > ul {
+  padding: 0;
+  margin-bottom: 8px;
+  list-style-type: none;
+}
+
+nav > ul > li {
+  padding: 0 8px 0 8px;
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+p {
+  margin: 8px;
+}
+
+hr {
+  width: 100%;
+}
+
+.noscript {
+  background: #FFFFFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  font-size: 64px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexItem {
+  border: 1px solid #000000;
+  padding: 15px;
+  margin: 20px;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 4px #000000;
+  width: 225px;
+  height: 225px;
+  text-align: center;
+}
+
+.flexItem > img {
+  border: 1px solid #000000;
+  width: 150px;
+  height: 150px;
+}
