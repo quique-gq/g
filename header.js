@@ -1,6 +1,6 @@
 (function () {
   var headerHTML =
-    '<a href="/"><img width="200px" height="88px" src="./assets/logo_g.svg"></a>' +
+    '<a href="/"><img width="250px" height="110px" src="./assets/logo_g.svg"></a>' +
     '<nav>' +
     '<ul>' +
     '<li><a href="/">Home</a></li>' +
