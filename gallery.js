@@ -11,7 +11,7 @@
   var insertGalleryElement = function (template, obj) {
     var element = template
       .replace('%name%', obj.name)
-      .replace('%url%', '/game.html?' + obj.name)
+      .replace('%url%', '/game?' + obj.name)
       .replace('%thumbnail%', obj.thumbnail);
     galleryContainer.insertAdjacentHTML('beforeend', element);
   };
