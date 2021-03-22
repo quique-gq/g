@@ -6,7 +6,7 @@ body {
   background: url('https://quique.gq/assets/bgscroll_2x.png');
   margin: 4px;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   image-rendering: pixelated;
 }
@@ -33,8 +33,9 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
+  border-bottom: 1px solid;
   color: #000000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 p {
