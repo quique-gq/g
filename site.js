@@ -4,17 +4,15 @@
   var CURRENT_VERSION = 'mar222021-0213est';
 
   var cookieCheck = function (callback) {
-    var c;
-    var sMessage = 'successfully loaded gameData from cookie!';
-    try { c = JSON.parse(atob(document.cookie.split('gameData=')[1])); } catch (err) { c = ''; }
+    var c = JSON.parse(localStorage.getItem('gameData')) || {};
+    var sMessage = 'successfully loaded gameData from localStorage!';
     if (c.version === CURRENT_VERSION) {
       console.log(sMessage);
       callback(c.gameList);
     } else {
       getGameData(function (json) {
-        var week = (new Date(Date.now() + 604800 * 1000)).toUTCString();
-        console.log('gameData cookie was either not found or outdated... grabbing latest file...');
-        document.cookie = 'gameData=' + btoa(json) + ';expires=' + week;
+        console.log('local gameData was either not found or outdated... grabbing latest file...');
+        localStorage.setItem('gameData', json);
         console.log(sMessage);
         callback(JSON.parse(json).gameList);
       });
