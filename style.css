@@ -4,21 +4,28 @@
 
 body {
   background: url('https://quique.gq/assets/bgscroll_2x.png');
-  margin: 4px;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
+  margin: 0px;
+  font-family: 'Verdana', monospace;
+  font-size: 18px;
   text-align: center;
   image-rendering: pixelated;
 }
 
 main {
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 40px);
 }
 
 header {
-  background: #FFFFFF;
-  margin: 8px;
+  margin-bottom: 8px;
   text-align: left;
+}
+
+footer {
+  height: 40px;
+}
+
+header, footer {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.03)), #FFFFFF;
 }
 
 nav > ul {
@@ -43,7 +50,8 @@ p {
 }
 
 hr {
-  width: 100%;
+  margin: auto;
+  width: 99%;
 }
 
 .noscript {

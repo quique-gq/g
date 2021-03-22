@@ -1,7 +1,7 @@
 // bad site code i think
 
 (function () {
-  var CURRENT_VERSION = 'mar222021-0000est';
+  var CURRENT_VERSION = 'mar222021-0213est';
 
   var cookieCheck = function (callback) {
     var c;
@@ -12,10 +12,11 @@
       callback(c.gameList);
     } else {
       getGameData(function (json) {
+        var week = (new Date(Date.now() + 604800 * 1000)).toUTCString();
         console.log('gameData cookie was either not found or outdated... grabbing latest file...');
-        document.cookie = 'gameData=' + btoa(json);
+        document.cookie = 'gameData=' + btoa(json) + ';expires=' + week;
         console.log(sMessage);
-        callback(JSON.parse(atob(document.cookie.split('gameData=')[1])).gameList);
+        callback(JSON.parse(json).gameList);
       });
     }
   };

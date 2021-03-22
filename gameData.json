@@ -1,5 +1,5 @@
 {
-  "version": "mar222021-0000est",
+  "version": "mar222021-0213est",
   "gameList": [
     {
       "name": "rpg-test",
@@ -14,6 +14,96 @@
       "containerStyle": "margin: 10px auto 10px auto; display: inline-block",
       "file": "./assets/games/pubie.js/pubie.js",
       "init": "PUBIE.init();"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
+    },
+    {
+      "name": "test",
+      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
+      "instructions": "test",
+      "file": "./"
     }
   ]
 }
