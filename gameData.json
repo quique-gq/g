@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "version": "mar232021-1032est",
+=======
+  "version": "mar232021-1020est",
+>>>>>>> 3e5d4e24b1bb1b58c2378b1f47cc9a4cf71b52a5
   "gameList": [
     {
       "name": "The Tower of Power",
       "url": "the-tower-of-power",
+      "thumbnail": "./assets/thumbnails/the-tower-of-power.png",
       "instructions": "<div align=\"left\"><h3>Story</h3><p>The evil demon Cabrakan has kidnapped Princess Akna and stolen the blue power staff! Prince Tardeas must climb 60 floors in The Tower of Power to defeat Cabrakan and restore peace to the kingdom!</p><h3>Controls</h3><p>Provided in-game.</p></div>",
       "dir": "/the-tower-of-power/",
       "index": "index.html",
