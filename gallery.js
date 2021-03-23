@@ -12,7 +12,7 @@ var GALLERY = (function () {
   var insertGalleryElement = function (template, obj) {
     var element = template
       .replace('%name%', obj.name)
-      .replace('%url%', '/g?' + obj.name)
+      .replace('%url%', '/g?' + obj.url)
       .replace('%thumbnail%', obj.thumbnail);
     galleryContainer.insertAdjacentHTML('beforeend', element);
   };
