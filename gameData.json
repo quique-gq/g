@@ -26,6 +26,7 @@
     {
       "name": "rpg-test",
       "url": "rpg-test",
+      "thumbnail": "./assets/thumbnails/rpg-test.png",
       "instructions": "<p>None</p>",
       "dir": "/rpg-test/",
       "index": "index.html?fullscreen",
