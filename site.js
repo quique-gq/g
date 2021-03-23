@@ -31,9 +31,11 @@
   cookieCheck(function (gameData) {
     switch (window.location.pathname.slice(1)) {
       case '': case 'featured':
+        document.title = 'Featured';
         GALLERY.load(gameData, 'featured');
         break;
       case 'a-z':
+        document.title = 'g - A-Z';
         GALLERY.load(gameData, 'alphabetical');
         break;
       case 'g': case 'g.html':
