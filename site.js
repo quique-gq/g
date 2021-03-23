@@ -33,7 +33,7 @@
       case '': case 'featured':
         GALLERY.load(gameData, 'featured');
         break;
-      case 'az':
+      case 'a-z':
         GALLERY.load(gameData, 'alphabetical');
         break;
       case 'game':
