@@ -87,3 +87,13 @@ hr {
   width: 150px;
   height: 150px;
 }
+
+#gContainer {
+  border: none;
+  margin: 8px;
+}
+
+#gInstructions {
+  margin: auto;
+  width: 80%;
+}

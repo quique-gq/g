@@ -1,23 +1,23 @@
 var G = (function () {
+  var gameDir = './assets/games';
   var dom = {
-    url: window.location.search.slice(1),
     title: document.getElementById('gTitle'),
-    instructions: document.getElementById('gInstructions'),
-    container: '<div id="%name%" style="%style%"></div>'
-  };
-
-  var loadGame = function () {
-    var gameList = JSON.parse(this.responseText);
-    var gameData = gameList.filter(function (cur) { return cur.name === dom.url; })[0]; // look ma! no arrow functions!
-    dom.title.innerHTML = gameData.name;
-    dom.instructions.innerHTML = gameData.instructions;
-    dom.container = dom.container
-      .replace('%name%', gameData.containerName)
-      .replace('%style%', gameData.containerStyle)
-    dom.title.insertAdjacentHTML('afterend', dom.container);
+    container: document.getElementById('gContainer'),
+    instructions: document.getElementById('gInstructions')
   };
 
   return {
-    loadGame: loadGame
+    load: function (url) {
+      var gameList = JSON.parse(localStorage.getItem('gameData')).gameList;
+      var currentGame;
+      gameList.every(function (cur) { if (cur.url === url) { currentGame = cur; return false; } return true; });
+      if (currentGame) {
+        dom.title.innerHTML = currentGame.name;
+        dom.container.src = gameDir + currentGame.dir + currentGame.index;
+        dom.container.width = currentGame.width;
+        dom.container.height = currentGame.height;
+        dom.instructions.innerHTML = currentGame.instructions;
+      }
+    }
   }
 })();

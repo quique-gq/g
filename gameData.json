@@ -2,19 +2,34 @@
   "version": "mar232021-0200est",
   "gameList": [
     {
-      "name": "rpg-test",
-      "instructions": "do the thing",
-      "file": "./",
+      "name": "The Tower of Power",
+      "url": "the-tower-of-power",
+      "instructions": "<div align=\"left\"><h3>Story</h3><p>The evil demon Cabrakan has kidnapped Princess Akna and stolen the blue power staff! Prince Tardeas must climb 60 floors in The Tower of Power to defeat Cabrakan and restore peace to the kingdom!</p><h3>Controls</h3><p>Provided in-game.</p></div>",
+      "dir": "/the-tower-of-power/",
+      "index": "index.html",
+      "width": 768,
+      "height": 576,
       "featured": true
     },
     {
-      "name": "pubie",
+      "name": "Pubie",
+      "url": "pubie",
       "thumbnail": "https://pubie.quique.gq/assets/thumbnails/pubie.js.png",
       "instructions": "help pubie obtain MOLECULE. lugie bad",
-      "containerName": "pubieContainer",
-      "containerStyle": "margin: 10px auto 10px auto; display: inline-block",
-      "file": "./assets/games/pubie.js/pubie.js",
-      "init": "PUBIE.init();",
+      "dir": "/pubie.js/",
+      "index": "index.html",
+      "width": 500,
+      "height": 500,
+      "featured": true
+    },
+    {
+      "name": "rpg-test",
+      "url": "rpg-test",
+      "instructions": "<p>None</p>",
+      "dir": "/rpg-test/",
+      "index": "index.html?fullscreen",
+      "width": 768,
+      "height": 432,
       "featured": true
     },
     {
