@@ -3,8 +3,7 @@
 	url = https://github.com/quique-gq/pubie.js
 [submodule "assets/games/rpg-test"]
 	path = assets/games/rpg-test
-	url = https://github.com/quique-gq/rpg-test
-  
+	url = https://github.com/quique-gq/rpg-test  
 [submodule "assets/games/the-tower-of-power"]
 	path = assets/games/the-tower-of-power
 	url = https://github.com/quique-gq/the-tower-of-power
