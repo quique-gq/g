@@ -3,9 +3,9 @@ var HEADER = (function () {
     '<a href="/"><img width="300px" height="130px" src="./assets/logo_g.svg"></a>' +
     '<nav>' +
     '<ul>' +
-    '<li><a href="/">Featured</a></li>' +
+    '<li><a href="/featured">Featured</a></li>' +
     '<li><a href="/">New</a></li>' +
-    '<li><a href="/">A-Z</a></li>' +
+    '<li><a href="/a-z">A-Z</a></li>' +
     '</ul>' +
     '<hr>' +
     '</nav>';
