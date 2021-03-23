@@ -16,7 +16,7 @@
       "name": "Pubie",
       "url": "pubie",
       "thumbnail": "./assets/thumbnails/pubie.js.png",
-      "instructions": "help pubie obtain MOLECULE. lugie bad",
+      "instructions": "<p>Help pubie obtain MOLECULE. Lugie is bad.</p><p>Original game by <a href=\"https://hoylecake.com/pubie\">hoylecake</a>.</p>",
       "dir": "/pubie.js/",
       "index": "index.html?fullscreen",
       "width": 640,
