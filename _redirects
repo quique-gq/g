@@ -1,2 +1,4 @@
 https://g-quique.netlify.app/* http://not_found 301!
 /assets/games/* / 301!
+
+/featured / 200

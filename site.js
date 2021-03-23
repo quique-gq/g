@@ -1,7 +1,7 @@
 // bad site code i think
 
 (function () {
-  var CURRENT_VERSION = 'mar222021-0213est';
+  var CURRENT_VERSION = 'amar222021-0213est';
 
   var cookieCheck = function (callback) {
     var c = JSON.parse(localStorage.getItem('gameData')) || {};
@@ -31,7 +31,10 @@
   cookieCheck(function (gameData) {
     switch (window.location.pathname.slice(1)) {
       case '':
-        GALLERY.load(gameData, 'all');
+        GALLERY.load(gameData, 'featured');
+        break;
+      case 'featured':
+        GALLERY.load(gameData, 'alphabetical');
         break;
       case 'game':
         G.load();

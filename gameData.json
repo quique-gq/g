@@ -4,7 +4,8 @@
     {
       "name": "rpg-test",
       "instructions": "do the thing",
-      "file": "./"
+      "file": "./",
+      "featured": true
     },
     {
       "name": "pubie",
@@ -13,7 +14,8 @@
       "containerName": "pubieContainer",
       "containerStyle": "margin: 10px auto 10px auto; display: inline-block",
       "file": "./assets/games/pubie.js/pubie.js",
-      "init": "PUBIE.init();"
+      "init": "PUBIE.init();",
+      "featured": true
     },
     {
       "name": "test",
