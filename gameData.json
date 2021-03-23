@@ -1,5 +1,5 @@
 {
-  "version": "mar232021-0323est",
+  "version": "mar232021-1032est",
   "gameList": [
     {
       "name": "The Tower of Power",
@@ -17,9 +17,9 @@
       "thumbnail": "https://pubie.quique.gq/assets/thumbnails/pubie.js.png",
       "instructions": "help pubie obtain MOLECULE. lugie bad",
       "dir": "/pubie.js/",
-      "index": "index.html",
-      "width": 500,
-      "height": 500,
+      "index": "index.html?fullscreen",
+      "width": 640,
+      "height": 480,
       "featured": true
     },
     {
