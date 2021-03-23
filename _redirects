@@ -1,2 +1,2 @@
 https://g-quique.netlify.app/* http://not_found 301!
-https://g.quique.gq/assets/games/* / 301
+https://g.quique.gq/assets/games/* https://g.quique.gq/ 301
