@@ -36,7 +36,7 @@
       case 'a-z':
         GALLERY.load(gameData, 'alphabetical');
         break;
-      case 'g.html':
+      case 'g': case 'g.html':
         G.load(window.location.search.slice(1).toLowerCase());
         break;
     }
