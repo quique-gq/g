@@ -18,6 +18,8 @@ var G = (function () {
         dom.container.width = currentGame.width;
         dom.container.height = currentGame.height;
         dom.instructions.innerHTML = currentGame.instructions;
+      } else {
+        window.location.href = '/404/';
       }
     }
   }
