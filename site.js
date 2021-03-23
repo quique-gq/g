@@ -31,7 +31,7 @@
   cookieCheck(function (gameData) {
     switch (window.location.pathname.slice(1)) {
       case '': case 'featured':
-        document.title = 'Featured';
+        document.title = 'g - Featured';
         GALLERY.load(gameData, 'featured');
         break;
       case 'a-z':
