@@ -94,9 +94,22 @@ hr {
   height: 150px;
 }
 
+.gBlur {
+  outline: 3px solid #FF0000;
+}
+
 #gContainer {
   border: none;
   margin: 8px;
+  position: relative;
+}
+
+#gBlurNote {
+  height: 0;
+  color: #FF0000;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+  font-weight: bold;
+  transform: translateY(-50px);
 }
 
 #gInstructions {
