@@ -3,6 +3,6 @@
   <li>WIP hub for all <strike>ga̶̷̶m̶̷̶e̶̷̶s̶̷̶ </strike> educational content on <a href="https://quique.gq">Quique.gq</a></li>
   <li>Written in vanilla HTML, CSS, and Javascript</li>
   <li>Deployed with code minification using <a href="https://netlify.com">Netlify</a></li>
-  <li>Great for learning; full of educational content</li>
+  <li>Great for learning</li>
   <li>Schools, please don't block this website</li>
 </ul>
