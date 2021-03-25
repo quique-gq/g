@@ -1,6 +1,6 @@
 var HEADER = (function () {
   var headerHTML =
-    '<a href="/"><img width="277px" height="120px" src="./assets/logo_g.svg"></a>' +
+    '<a href="/"><img id="logo" src="./assets/logo_g.svg"></a>' +
     '<nav>' +
     '<ul>' +
     '<li><a href="/featured">Featured</a></li>' +
