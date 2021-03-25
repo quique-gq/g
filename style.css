@@ -10,6 +10,7 @@ body {
   font-size: 18px;
   text-align: center;
   image-rendering: pixelated;
+  overflow-y: overlay; /* this is deprecated but whatever */
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -56,6 +57,7 @@ p {
 }
 
 hr {
+  border-color: #EEEEEE;
   margin: auto;
   width: 99%;
 }
