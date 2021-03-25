@@ -3,8 +3,23 @@ var G = (function () {
   var dom = {
     title: document.getElementById('gTitle'),
     container: document.getElementById('gContainer'),
-    instructions: document.getElementById('gInstructions')
+    instructions: document.getElementById('gInstructions'),
+    blurNote: document.getElementById('gBlurNote')
   };
+
+  var isFocused = function () {
+    return (document.activeElement === dom.container);
+  };
+
+  setInterval(function () {
+    if (isFocused()) {
+      dom.container.classList.remove('gBlur');
+      dom.blurNote.style.display = 'none';
+    } else {
+      dom.container.classList.add('gBlur');
+      dom.blurNote.style.display = 'block';
+    }
+  }, 100);
 
   return {
     load: function (url) {
