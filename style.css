@@ -5,7 +5,7 @@
 body {
   background: url('https://quique.gq/assets/bgscroll_2x.png');
   margin: 0px;
-  display:inline-block;
+  display: inline-block;
   font-family: 'Verdana', monospace;
   font-size: 18px;
   text-align: center;
@@ -49,8 +49,14 @@ nav > ul > li {
 
 nav > ul > li > a {
   border-bottom: 1px solid;
+  border-bottom-color: #000000;
   color: #000000;
   text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  border-bottom-color: #0000FF;
+  color: #0000FF;
 }
 
 p {
