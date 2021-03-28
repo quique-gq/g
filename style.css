@@ -13,7 +13,7 @@
 }
 
 body {
-  background: var(--bgimg);
+  background: var(--bgimg), var(--bg);
   font-family: 'Verdana', monospace;
   font-size: 18px;
   color: var(--text);
