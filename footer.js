@@ -3,7 +3,7 @@ var FOOTER = (function () {
     '<hr>' +
     '<p>by Literal Line&emsp;' +
     'Source code: <a href="https://github.com/quique-gq/g" target="_blank">Github</a>&emsp;' +
-    'more at <a href="https://quique.gq" target="_blank">Quique.gq</a>' +
+    'more at <a href="https://quique.gq" target="_blank">Quique.gq</a>&emsp;' +
     '</p>';
   return {
     load: function () {

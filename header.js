@@ -6,6 +6,7 @@ var HEADER = (function () {
     '<li><a href="/featured">Featured</a></li>' +
     '<li><a href="/">New</a></li>' +
     '<li><a href="/a-z">A-Z</a></li>' +
+    '<li style="float: right">Dark mode:&nbsp;<input type="checkbox" ' + (localStorage.getItem('theme') === 'dark' ? 'checked' : '') + ' onchange="THEME.set(this.checked ? \'dark\' : \'light\');"></li>' +
     '</ul>' +
     '<hr>' +
     '</nav>';
