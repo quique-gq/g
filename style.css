@@ -34,12 +34,13 @@ a:hover {
   color: var(--link);
 }
 
-main {
+#mainContent {
   min-height: calc(100vh - 44px);
 }
 
 header {
   margin-bottom: 8px;
+  position: relative;
   text-align: left;
 }
 
@@ -49,6 +50,10 @@ footer {
 
 header, footer {
   background: linear-gradient(rgba(0, 0, 0, 0), var(--gradient)), var(--bg);
+}
+
+main, header, footer {
+  display: inline-block;
   min-width: 100%;
 }
 
@@ -91,6 +96,38 @@ hr {
   width: 100vw;
   height: 100vh;
   font-size: 64px;
+}
+
+.ibContent {
+  margin: auto;
+  display: inline-block;
+}
+
+.themeCheckbox {
+  appearance: none;
+  outline: none;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), var(--gradient)), var(--bg);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  padding: 4px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-family: 'Verdana', monospace;
+  font-size: 18px;
+  color: var(--text);
+}
+
+.themeCheckbox:hover {
+  outline: 1px solid var(--border);
+}
+
+.themeCheckbox:not(:checked)::before {
+  content: 'Theme 🌞';
+}
+
+.themeCheckbox:checked::before {
+  content: 'Theme 🌚';
 }
 
 .flexContainer {
@@ -149,5 +186,4 @@ hr {
 
 #gInstructions {
   margin: auto;
-  width: 80%;
 }
