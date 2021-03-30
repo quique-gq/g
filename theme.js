@@ -16,7 +16,7 @@ var THEME = (function () {
       '--border': '#DDDDDD',
       '--hr': '#333333',
       '--text': '#DDDDDD',
-      '--link': '#00AAFF'
+      '--link': '#4488FF'
     }
   };
 

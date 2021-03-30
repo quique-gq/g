@@ -35,7 +35,7 @@ a:hover {
 }
 
 #mainContent {
-  min-height: calc(100vh - 44px);
+  min-height: calc(100vh - 40px);
 }
 
 header {
