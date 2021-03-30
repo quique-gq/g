@@ -1,10 +1,11 @@
 var FOOTER = (function () {
   var headerHTML =
     '<hr>' +
-    '<p>by Literal Line&emsp;' +
-    'Source code: <a href="https://github.com/quique-gq/g" target="_blank">Github</a>&emsp;' +
-    'more at <a href="https://quique.gq" target="_blank">Quique.gq</a>' +
-    '</p>';
+    '<ul class="ilList" style="margin: 8px">' +
+    '<li>by Literal Line</li>' +
+    '<li>Source code:&nbsp;<a href="https://github.com/quique-gq/g" target="_blank">Github</a></li>' +
+    '<li>more at <a href="https://quique.gq" target="_blank">Quique.gq</a></li>' +
+    '</ul>';
   return {
     load: function () {
       document.getElementsByTagName('footer')[0].insertAdjacentHTML('afterbegin', headerHTML);

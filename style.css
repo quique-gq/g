@@ -57,24 +57,24 @@ main, header, footer {
   min-width: 100%;
 }
 
-nav > ul {
+.ilList {
   padding: 0;
   margin-bottom: 8px;
   list-style-type: none;
 }
 
-nav > ul > li {
+.ilList > li {
   padding: 0 8px 0 8px;
   display: inline-block;
 }
 
-nav > ul > li > a {
+.ilList > li > a {
   border-bottom: 1px solid;
   border-bottom-color: var(--border);
   text-decoration: none;
 }
 
-nav > ul > li > a:hover {
+.ilList > li > a:hover {
   border-bottom-color: var(--link);
 }
 
@@ -107,15 +107,12 @@ hr {
   appearance: none;
   outline: none;
   background: linear-gradient(to left, rgba(0, 0, 0, 0), var(--gradient)), var(--bg);
-  border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 10px;
   padding: 4px;
-  position: absolute;
-  bottom: 8px;
-  right: 8px;
   font-family: 'Verdana', monospace;
   font-size: 18px;
   color: var(--text);
+  transform: translateY(-6px);
 }
 
 .themeCheckbox:hover {
