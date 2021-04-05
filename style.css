@@ -9,7 +9,7 @@
   --border: #000000;
   --hr: #EEEEEE;
   --text: #000000;
-  --link: #0000FF;
+  --link: rgba(0, 0, 0, 0.5);
 }
 
 body {
@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-  color: var(--link);
+  text-shadow: 0 0 4px var(--link);
 }
 
 #mainContent {
@@ -72,10 +72,6 @@ main, header, footer {
   border-bottom: 1px solid;
   border-bottom-color: var(--border);
   text-decoration: none;
-}
-
-.ilList > li > a:hover {
-  border-bottom-color: var(--link);
 }
 
 p {
@@ -135,12 +131,13 @@ hr {
 }
 
 .flexItem {
+  background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 3px;
   padding: 15px;
   margin: 20px;
-  background: var(--bg);
-  box-shadow: 1px 1px 4px var(--border);
+  display: block;
+  box-shadow: 0 0 6px var(--border);
   width: 225px;
   height: 225px;
   text-align: center;
@@ -150,6 +147,11 @@ hr {
   border: 1px solid var(--border);
   width: 150px;
   height: 150px;
+}
+
+.flexItem:hover {
+  border-radius: 0;
+  outline: 1px solid var(--border);
 }
 
 .gBlur {

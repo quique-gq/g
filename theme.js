@@ -7,16 +7,16 @@ var THEME = (function () {
       '--border': '#000000',
       '--hr': '#EEEEEE',
       '--text': '#000000',
-      '--link': '#6666FF'
+      '--link': 'rgba(0, 0, 0, 0.5)'
     },
     dark: {
       '--bg': '#000000',
       '--gradient': 'rgba(255, 255, 255, 0.075)',
       '--bgimg': 'url(\'https://quique.gq/assets/bgscroll_dark_2x.png\')',
-      '--border': '#DDDDDD',
+      '--border': '#BBBBBB',
       '--hr': '#333333',
-      '--text': '#DDDDDD',
-      '--link': '#304888'
+      '--text': '#CCCCCC',
+      '--link': 'rgba(255, 255, 255, 0.5)'
     }
   };
 

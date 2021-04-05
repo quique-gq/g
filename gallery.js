@@ -2,11 +2,9 @@ var GALLERY = (function () {
   var galleryHeader = document.getElementById('galleryHeader');
   var galleryContainer = document.getElementById('galleryContainer');
   var elementHtml =
-    '<a href="%url%">' +
-    '<div class="flexItem">' +
+    '<a class="flexItem" href="%url%">' +
     '<img src="%thumbnail%">' +
     '<p>%name%</p>' +
-    '</div>' +
     '</a>';
 
   var insertGalleryElement = function (template, obj) {
