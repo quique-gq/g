@@ -14,9 +14,9 @@ var THEME = (function () {
       '--bg': '#000',
       '--gradient': 'rgba(255, 255, 255, 0.075)',
       '--bgimg': 'url(\'https://quique.gq/assets/bgscroll_dark_2x.png\')',
-      '--border': '#BBB',
+      '--border': '#EEE',
       '--hr': '#333',
-      '--text': '#CCC',
+      '--text': '#EEE',
       '--link': 'rgba(255, 255, 255, 0.5)',
       '--svgoutline': '#FFF'
     }
