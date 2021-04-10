@@ -1,6 +1,6 @@
 var HEADER = (function () {
   var headerHTML =
-    '<a href="/" class="noHover" style="text-decoration: none"><img id="logo" src="./assets/logo_g.svg"><span style="font-weight: bold; font-style: italic; color: #304888; text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000; letter-spacing: 3px">Beta</span></a>' +
+    '<a href="/" class="noHover svgOutline" style="text-decoration: none"><img id="logo" src="./assets/logo_g.svg"><span style="font-weight: bold; font-style: italic; color: #304888; text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000; letter-spacing: 3px">Beta</span></a>' +
     '<nav>' +
     '<ul class="ilList">' +
     '<li><a class="au" href="/featured">Featured</a></li>' +

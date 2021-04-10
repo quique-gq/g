@@ -45,6 +45,10 @@ a, a:hover {
   text-decoration: none;
 }
 
+.svgOutline {
+  filter: drop-shadow(1px 1px 0 var(--svgoutline)) drop-shadow(-1px 1px 0 var(--svgoutline)) drop-shadow(1px -1px 0 var(--svgoutline)) drop-shadow(-1px -1px 0 var(--svgoutline));
+}
+
 #mainContent {
   min-height: calc(100vh - 40px);
 }
