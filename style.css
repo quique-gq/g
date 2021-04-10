@@ -50,7 +50,7 @@ a, a:hover {
 }
 
 #mainContent {
-  min-height: calc(100vh - 40px);
+  min-height: calc(100vh - 41px);
 }
 
 header {
