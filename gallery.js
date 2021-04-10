@@ -2,7 +2,7 @@ var GALLERY = (function () {
   var galleryHeader = document.getElementById('galleryHeader');
   var galleryContainer = document.getElementById('galleryContainer');
   var elementHtml =
-    '<a class="flexItem" href="%url%">' +
+    '<a class="hover flexItem" href="%url%">' +
     '<img src="%thumbnail%">' +
     '<p>%name%</p>' +
     '</a>';

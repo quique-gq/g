@@ -3,8 +3,8 @@ var FOOTER = (function () {
     '<hr>' +
     '<ul class="ilList" style="margin: 8px">' +
     '<li>by Literal Line</li>' +
-    '<li>Source code:&nbsp;<a class="au" href="https://github.com/quique-gq/g" target="_blank">Github</a></li>' +
-    '<li>more at <a class="au" href="https://quique.gq" target="_blank">Quique.gq</a></li>' +
+    '<li>Source code:&nbsp;<a class="hover au" href="https://github.com/quique-gq/g" target="_blank">Github</a></li>' +
+    '<li>more at <a class="hover au" href="https://quique.gq" target="_blank">Quique.gq</a></li>' +
     '</ul>';
   return {
     load: function () {

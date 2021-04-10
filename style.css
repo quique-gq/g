@@ -31,7 +31,7 @@ a {
   color: var(--text);
 }
 
-a:hover:not(.noHover) {
+a.hover:hover {
   transform: translateY(-4px) scale(1.1);
 }
 
