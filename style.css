@@ -27,11 +27,22 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 a {
+  display: inline-block;
   color: var(--text);
 }
 
-a:hover {
-  text-shadow: 0 0 4px var(--link);
+a:hover:not(.noHover) {
+  transform: translateY(-4px) scale(1.1);
+}
+
+a, a:hover {
+  transition: 0.1s ease-in-out;
+}
+
+.au {
+  border-bottom: 1px solid;
+  border-bottom-color: var(--border);
+  text-decoration: none;
 }
 
 #mainContent {
@@ -42,6 +53,7 @@ header {
   margin-bottom: 8px;
   position: relative;
   text-align: left;
+  overflow: hidden;
 }
 
 footer {
@@ -66,12 +78,6 @@ main, header, footer {
 .ilList > li {
   padding: 0 8px 0 8px;
   display: inline-block;
-}
-
-.ilList > li > a {
-  border-bottom: 1px solid;
-  border-bottom-color: var(--border);
-  text-decoration: none;
 }
 
 p {
@@ -111,10 +117,6 @@ hr {
   transform: translateY(-6px);
 }
 
-.themeCheckbox:hover {
-  outline: 1px solid var(--border);
-}
-
 .themeCheckbox:not(:checked)::before {
   content: 'Theme 🌞';
 }
@@ -141,17 +143,13 @@ hr {
   width: 225px;
   height: 225px;
   text-align: center;
+  text-decoration: none;
 }
 
 .flexItem > img {
   border: 1px solid var(--border);
   width: 150px;
   height: 150px;
-}
-
-.flexItem:hover {
-  border-radius: 0;
-  outline: 1px solid var(--border);
 }
 
 .gBlur {
