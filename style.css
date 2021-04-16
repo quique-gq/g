@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  transition: 0.01s ease-in-out;
 }
 
 :root {
