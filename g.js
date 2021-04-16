@@ -27,7 +27,7 @@ var G = (function () {
       var currentGame;
       gameList.every(function (cur) { if (cur.url === url) { currentGame = cur; return false; } return true; });
       if (currentGame) {
-        document.title = 'g - ' + currentGame.name;
+        document.title = currentGame.name;
         dom.title.innerHTML = currentGame.name;
         dom.container.src = gameDir + currentGame.dir + currentGame.index;
         dom.container.width = currentGame.width;
