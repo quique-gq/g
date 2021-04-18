@@ -7,8 +7,7 @@ var THEME = (function () {
       '--border': '#000',
       '--hr': '#EEE',
       '--text': '#000',
-      '--link': 'rgba(0, 0, 0, 0.5)',
-      '--svgoutline': 'rgba(0, 0, 0, 0)'
+      '--link': 'rgba(0, 0, 0, 0.5)'
     },
     dark: {
       '--bg': '#000',
@@ -17,8 +16,7 @@ var THEME = (function () {
       '--border': '#EEE',
       '--hr': '#333',
       '--text': '#EEE',
-      '--link': 'rgba(255, 255, 255, 0.5)',
-      '--svgoutline': '#FFF'
+      '--link': 'rgba(255, 255, 255, 0.5)'
     }
   };
 
