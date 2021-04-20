@@ -7,3 +7,6 @@
 [submodule "assets/games/the-tower-of-power"]
 	path = assets/games/the-tower-of-power
 	url = https://github.com/quique-gq/the-tower-of-power
+[submodule "assets/games/pubie-tower-defense"]
+	path = assets/games/pubie-tower-defense
+	url = https://github.com/quique-gq/pubie-tower-defense
