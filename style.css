@@ -10,7 +10,6 @@
   --hr: #EEEEEE;
   --text: #000000;
   --link: rgba(0, 0, 0, 0.5);
-  --svgoutline: 'rgba(0, 0, 0, 0)';
 }
 
 body {
@@ -50,8 +49,8 @@ a, a:hover {
   text-decoration: none;
 }
 
-.svgOutline {
-  filter: drop-shadow(1px 1px 0 var(--svgoutline)) drop-shadow(-1px 1px 0 var(--svgoutline)) drop-shadow(1px -1px 0 var(--svgoutline)) drop-shadow(-1px -1px 0 var(--svgoutline));
+.svg {
+  filter: drop-shadow(1px 1px 0 #FFF) drop-shadow(-1px 1px 0 #FFF) drop-shadow(1px -1px 0 #FFF) drop-shadow(-1px -1px 0 #FFF);
 }
 
 #mainContent {
@@ -61,6 +60,7 @@ a, a:hover {
 header {
   margin-bottom: 8px;
   position: relative;
+  font-size: 22px;
   text-align: left;
   overflow: hidden;
 }
@@ -121,7 +121,7 @@ hr {
   border-radius: 10px;
   padding: 4px;
   font-family: 'Verdana', monospace;
-  font-size: 18px;
+  font-size: inherit;
   color: var(--text);
   transform: translateY(-6px);
 }
