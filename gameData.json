@@ -1,5 +1,5 @@
 {
-  "version": "Thu Apr 22 2021 04:56:52 GMT-0400 (Eastern Daylight Time)",
+  "version": "Thu Apr 22 2021 05:20:25 GMT-0400 (Eastern Daylight Time)",
   "gameList": [
     {
       "name": "Pubie Tower Defense (Unfinished)",
@@ -44,77 +44,57 @@
     {
       "name": "test",
       "instructions": "test",
-      "file": "./"
+      "dir": "/test/"
     },
     {
       "name": "test",
       "instructions": "test",
-      "file": "./"
+      "dir": "/test/"
     },
     {
       "name": "test",
       "instructions": "test",
-      "file": "./"
+      "dir": "/test/"
     },
     {
       "name": "test",
       "instructions": "test",
-      "file": "./"
+      "dir": "/test/"
     },
     {
       "name": "test",
       "instructions": "test",
-      "file": "./"
+      "dir": "/test/"
     },
     {
       "name": "test",
       "instructions": "test",
-      "file": "./"
+      "dir": "/test/"
     },
     {
       "name": "test",
       "instructions": "test",
-      "file": "./"
+      "dir": "/test/"
     },
     {
       "name": "test",
       "instructions": "test",
-      "file": "./"
+      "dir": "/test/"
     },
     {
       "name": "test",
       "instructions": "test",
-      "file": "./"
+      "dir": "/test/"
     },
     {
       "name": "test",
       "instructions": "test",
-      "file": "./"
+      "dir": "/test/"
     },
     {
       "name": "test",
       "instructions": "test",
-      "file": "./"
-    },
-    {
-      "name": "test",
-      "instructions": "test",
-      "file": "./"
-    },
-    {
-      "name": "test",
-      "instructions": "test",
-      "file": "./"
-    },
-    {
-      "name": "test",
-      "instructions": "test",
-      "file": "./"
-    },
-    {
-      "name": "test",
-      "instructions": "test",
-      "file": "./"
+      "dir": "/test/"
     }
   ]
 }

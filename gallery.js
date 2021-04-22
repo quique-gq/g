@@ -17,9 +17,9 @@ var GALLERY = (function () {
 
   var showAz = function (gameList) {
     var gameListAz = gameList.sort(function (a, b) {
-      var nameA = a.name.toUpperCase();
-      var nameB = b.name.toUpperCase();
-      return (nameA < nameB) ? -1 : (nameA > nameB) ? 1 : 0;
+      a = a.name.toUpperCase();
+      b = b.name.toUpperCase();
+      return (a < b) ? -1 : (a > b) ? 1 : 0;
     });
     gameListAz.forEach(function (cur) { insertGalleryElement(elementHtml, cur); }); // look ma! no arrow functions!
     galleryHeader.innerHTML = 'A-Z';
