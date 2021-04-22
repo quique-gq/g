@@ -1,10 +1,9 @@
 {
-  "version": "Thu Apr 22 2021 04:50:37 GMT-0400 (Eastern Daylight Time)",
+  "version": "Thu Apr 22 2021 04:56:52 GMT-0400 (Eastern Daylight Time)",
   "gameList": [
     {
       "name": "Pubie Tower Defense (Unfinished)",
       "url": "pubie-tower-defense",
-      "thumbnail": "./assets/games/pubie-tower-defense/assets/textures/menuBg.png",
       "instructions": "<p>None</p>",
       "dir": "/pubie-tower-defense/",
       "index": "index.html",
@@ -15,7 +14,6 @@
     {
       "name": "The Tower of Power (Unfinished)",
       "url": "the-tower-of-power",
-      "thumbnail": "./assets/thumbnails/the-tower-of-power.png",
       "instructions": "<div align=\"left\"><h3>Story</h3><p>The evil demon Cabrakan has kidnapped Princess Akna and stolen the blue power staff! Prince Tardeas must climb 60 floors in The Tower of Power to defeat Cabrakan and restore peace to the kingdom!</p><h3>Controls</h3><p>Provided in-game.</p></div>",
       "dir": "/the-tower-of-power/",
       "index": "index.html",
@@ -26,7 +24,6 @@
     {
       "name": "Pubie",
       "url": "pubie",
-      "thumbnail": "./assets/thumbnails/pubie.js.png",
       "instructions": "<div align=\"left\"><h3>Objective</h3><p>Help pubie obtain MOLECULE. Lugie is bad.</p><h3>Controls</h3><p>WASD to move, enter to continue.</p></div><p>Original game by <a target=\"_blank\" href=\"https://hoylecake.com/pubie\">hoylecake</a>.</p>",
       "dir": "/pubie.js/",
       "index": "index.html?fullscreen",
@@ -37,7 +34,6 @@
     {
       "name": "rpg-test",
       "url": "rpg-test",
-      "thumbnail": "./assets/thumbnails/rpg-test.png",
       "instructions": "<p>None</p>",
       "dir": "/rpg-test/",
       "index": "index.html?fullscreen",
@@ -47,91 +43,76 @@
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     },
     {
       "name": "test",
-      "thumbnail": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg",
       "instructions": "test",
       "file": "./"
     }

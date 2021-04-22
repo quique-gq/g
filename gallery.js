@@ -11,7 +11,7 @@ var GALLERY = (function () {
     var element = template
       .replace('%name%', obj.name)
       .replace('%url%', '/g?' + obj.url)
-      .replace('%thumbnail%', obj.thumbnail);
+      .replace('%thumbnail%', './assets/thumbnails' + obj.dir.slice(0, -1) + '.png');
     galleryContainer.insertAdjacentHTML('beforeend', element);
   };
 
