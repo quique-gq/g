@@ -1,7 +1,7 @@
 // bad site code i think
 
 (function () {
-  var CURRENT_VERSION = 'apr202021-1153est';
+  var CURRENT_VERSION = 'Thu Apr 22 2021 04:50:37 GMT-0400 (Eastern Daylight Time)';
 
   var cookieCheck = function (callback) {
     var c = JSON.parse(localStorage.getItem('gameData')) || {};

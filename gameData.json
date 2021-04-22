@@ -1,10 +1,10 @@
 {
-  "version": "apr202021-1153est",
+  "version": "Thu Apr 22 2021 04:50:37 GMT-0400 (Eastern Daylight Time)",
   "gameList": [
     {
       "name": "Pubie Tower Defense (Unfinished)",
       "url": "pubie-tower-defense",
-      "thumbnail": "./assets/thumbnails/pubie-tower-defense.png",
+      "thumbnail": "./assets/games/pubie-tower-defense/assets/textures/menuBg.png",
       "instructions": "<p>None</p>",
       "dir": "/pubie-tower-defense/",
       "index": "index.html",
