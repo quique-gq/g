@@ -115,7 +115,7 @@ hr {
 }
 
 .themeCheckbox {
-  appearance: none;
+  appearance: none; -webkit-appearance: none; -moz-appearance: none;
   outline: none;
   background: linear-gradient(to left, rgba(0, 0, 0, 0), var(--gradient)), var(--bg);
   border-radius: 10px;
