@@ -1,5 +1,5 @@
 var FOOTER = (function () {
-  var headerHTML =
+  var footerHTML =
     '<hr>' +
     '<ul class="ilList" style="margin: 8px">' +
     '<li>by Literal Line</li>' +
@@ -8,7 +8,7 @@ var FOOTER = (function () {
     '</ul>';
   return {
     load: function () {
-      document.getElementsByTagName('footer')[0].insertAdjacentHTML('afterbegin', headerHTML);
+      document.getElementsByTagName('footer')[0].insertAdjacentHTML('afterbegin', footerHTML);
       console.log('footer loaded!');
     }
   }
