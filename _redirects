@@ -1,7 +1,7 @@
 https://g-quique.netlify.app/* http://not_found 301!
-https://game.quique.gq/* http://g.quique.gq/* 301!
-https://games.quique.gq/* http://g.quique.gq/* 301!
-https://gaming.quique.gq/* http://g.quique.gq/* 301!
+https://game.quique.gq/* http://g.quique.gq/:splat 301!
+https://games.quique.gq/* http://g.quique.gq/:splat 301!
+https://gaming.quique.gq/* http://g.quique.gq/:splat 301!
 
 /featured / 200
 /a-z / 200
