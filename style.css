@@ -155,6 +155,10 @@ hr {
   text-decoration: none;
 }
 
+.flexItem:hover {
+  box-shadow: none;
+}
+
 .flexItem > img {
   border: 1px solid var(--border);
   width: 150px;
